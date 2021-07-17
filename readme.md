@@ -38,7 +38,7 @@ In this project i have used different modules for different compartments in the 
 
 During the project I have used Spring framework and JPA, which offer many facilities while creating Java REST API Services. That is why, i didn't have to manually deal with many things, like SQL Injection and creating JSON documents (see: [PHP Rest API](https://github.com/cagilceren/PHP-Simple-TO-DO-List-REST-API.git)). 
 
-Thanks to Java persistence API (JPA), i have created an Entity class (named [Reminder.java]()) to be able to communicate with the database.
+Thanks to Java persistence API (JPA), i have created an Entity class (named [Reminder.java](https://github.com/cagilceren/Java-Simple-TO-DO-List-REST-API/blob/master/src/main/java/com/example/restservice/model/Reminder.java)) to be able to communicate with the database.
 
 Thanks to the Spring framework, i created CRUD functions based on [RESTful web API design](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design) by related annotations. These CRUD functions are
 
@@ -64,15 +64,15 @@ In the functions I have checked the possible error resources and throwed a relat
 $ git clone https://github.com/cagilceren/Java-Simple-TO-DO-List-REST-API.git
 ```
 
-> 2) Install MySQL Workbench and MySQL Server. Import the file "[reminder.sql](https://github.com/cagilceren/Java-Simple-TO-DO-List-REST-API/blob/main/reminder.sql)".
+> 2) Install MySQL Workbench and MySQL Server. Import the file "[reminder.sql](https://github.com/cagilceren/Java-Simple-TO-DO-List-REST-API/blob/master/reminder.sql)".
 
 > [Download MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 
-> 3) Install Postman and import the file "[reminder.postman_collection.json](https://github.com/cagilceren/PHP-Simple-TO-DO-List-REST-API/blob/main/reminder.postman_collection.json)".
+> 3) Install Postman and import the file "[reminder.postman_collection.json](https://github.com/cagilceren/Java-Simple-TO-DO-List-REST-API/blob/master/reminder.postman_collection.json)".
 
 > [Download Postman](https://www.postman.com/downloads/)
 
-> 4) Open the file "[application.properties](https://github.com/cagilceren/PHP-Simple-TO-DO-List-REST-API/blob/main/reminder.php)" under the folder rest-service/src/main/resources in your favorite editor to be able to check and update the code as your credential.
+> 4) Open the file "[application.properties](https://github.com/cagilceren/Java-Simple-TO-DO-List-REST-API/blob/master/src/main/resources/application.properties)" under the folder rest-service/src/main/resources in your favorite editor to be able to check and update the code as your credential.
 
 > 5) Go to the repository folder and run the project 
 

@@ -12,7 +12,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\":\"Read book\",\n    \"date\":\"2021-07-13 19:25:58\"\n}",
+					"raw": "{\n    \"title\":\"read book\",\n    \"date\":\"2021-07-13T19:25:58.0000\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -20,15 +20,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/reminder.php/",
+					"raw": "http://localhost:8080/reminder",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8000",
+					"port": "8080",
 					"path": [
-						"reminder.php",
-						""
+						"reminder"
 					]
 				}
 			},
@@ -41,7 +40,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\":\"Read book\",\n    \"date\":\"2021-07-13 19:25:58\"\n}",
+					"raw": "{\n    \"title\":\"read book\",\n    \"date\":\"2021-07-13T19:25:58.0000\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -49,15 +48,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/reminder.php/",
+					"raw": "http://localhost:8080/reminder/19",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8000",
+					"port": "8080",
 					"path": [
-						"reminder.php",
-						""
+						"reminder",
+						"19"
 					]
 				}
 			},
@@ -69,15 +68,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/reminder.php/",
+					"raw": "http://localhost:8080/reminders",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8000",
+					"port": "8080",
 					"path": [
-						"reminder.php",
-						""
+						"reminders"
 					]
 				}
 			},

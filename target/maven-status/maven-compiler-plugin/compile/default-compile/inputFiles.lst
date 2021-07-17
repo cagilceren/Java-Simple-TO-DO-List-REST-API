@@ -1,0 +1,6 @@
+/Users/cagilceren/Downloads/rest-service/src/main/java/com/example/restservice/model/Reminder.java
+/Users/cagilceren/Downloads/rest-service/src/main/java/com/example/restservice/RestServiceApplication.java
+/Users/cagilceren/Downloads/rest-service/src/main/java/com/example/restservice/controller/ReminderController.java
+/Users/cagilceren/Downloads/rest-service/src/main/java/com/example/restservice/repository/ReminderRepository.java
+/Users/cagilceren/Downloads/rest-service/src/main/java/com/example/restservice/exception/InvalidInputException.java
+/Users/cagilceren/Downloads/rest-service/src/main/java/com/example/restservice/exception/ResourceNotFoundException.java

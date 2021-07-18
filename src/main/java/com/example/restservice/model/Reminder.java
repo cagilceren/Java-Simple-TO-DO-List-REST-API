@@ -41,7 +41,10 @@ public class Reminder {
 	  public String getTitle() {
 	        return title;
 	    }
-
+		
+		/*
+		 * @param title is a String object with a max length of 50.
+		 */
 	  public void setTitle(String title) throws InvalidInputException {
 		  if(!checkTitle(title))
 			  throw new InvalidInputException ("The title should contain max 50 characters.");
@@ -51,7 +54,10 @@ public class Reminder {
 	  public Date getDate() {
 	        return date;
 	    }
-
+		
+		/*
+		 * @param date should be in the format of "yyyy-MM-dd'T'HH:mm:ss.SSSz"
+		 */
 	  public void setDate(Date date) {
 	        this.date = date;
 	    }

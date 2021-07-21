@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example.restservice</groupId>
-	<artifactId>spring-boot-rest-api-tutorial</artifactId>
+	<artifactId>Java-Simple-TO-DO-List-REST-API</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>spring-boot-rest-api-tutorial</name>
-	<description>Sample REST CRUD API project using Spring Boot, Mysql, JPA and Hibernate</description>
+	<name>Java-Simple-TO-DO-List-REST-API</name>
+	<description>Sample REST API project using Spring Boot, Mysql, JPA and Hibernate</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

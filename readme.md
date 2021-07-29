@@ -14,7 +14,7 @@
 
 <br>
 
-This project is created as a part of self-learning. 
+This project has been created as a part of self-learning. 
 
 In this project, I have created REST API Service for a TO-DO App.  
 
@@ -34,13 +34,13 @@ In this project, I have created REST API Service for a TO-DO App.
 
 ## Highlights
 
-In this project i have used different modules for different compartments in the project. So that the project is easily upgradeable. 
+In this project I have used different modules for different compartments in the project, so that the project is easily upgradeable. 
 
-During the project I have used Spring framework and JPA, which offer many facilities while creating Java REST API Services. That is why, i didn't have to manually deal with many things, like SQL Injection and creating JSON documents (see: [PHP Rest API](https://github.com/cagilceren/PHP-Simple-TO-DO-List-REST-API.git)). 
+During the project I have used Spring framework and JPA, which offer many facilities while creating Java REST API Services. That is why, I didn't have to manually deal with many things, like SQL Injection and creating JSON documents (see: [PHP Rest API](https://github.com/cagilceren/PHP-Simple-TO-DO-List-REST-API.git)). 
 
-Thanks to Java persistence API (JPA), i have created an Entity class (named [Reminder.java](https://github.com/cagilceren/Java-Simple-TO-DO-List-REST-API/blob/master/src/main/java/com/example/restservice/model/Reminder.java)) to be able to communicate with the database.
+Thanks to Java persistence API (JPA), I have created an Entity class (named [Reminder.java](https://github.com/cagilceren/Java-Simple-TO-DO-List-REST-API/blob/master/src/main/java/com/example/restservice/model/Reminder.java)) to be able to communicate with the database.
 
-Thanks to the Spring framework, i created CRUD functions based on [RESTful web API design](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design) by related annotations. These CRUD functions are
+Thanks to the Spring framework, I created CRUD functions based on [RESTful web API design](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design) by related annotations. These CRUD functions are
 
 - to **Create** a new reminder to the database "post()",
 	
@@ -51,9 +51,9 @@ Thanks to the Spring framework, i created CRUD functions based on [RESTful web A
 - to **Delete** an existing reminder from the database "delete()".
 
 
-Additionally, i have created a "getAll()" function in order to get all the existing reminders in the database.
+Additionally, I have created a "getAll()" function in order to get all the existing reminders in the database.
 
-In the functions I have checked the possible error resources and throwed a related Exception. Successfull requests return "HTTP 200 OK" while unsuccessfull ones return "HTTP 400 Bad Request" or "HTTP 404 Not Found".
+In the functions I have checked the possible error resources and threw a related Exception. Successful requests return "HTTP 200 OK" while unsuccessful ones return "HTTP 400 Bad Request" or "HTTP 404 Not Found".
 
 
 ## Usage
